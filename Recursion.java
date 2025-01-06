@@ -24,7 +24,8 @@ public class Recursion{
     }
 
     /*Convert the integer to a String containing English words that are used to say the number.
-    * precondition: n > Integer.MIN_INTEGER   && n <= Integer.MAX_INTEGER , Integer.MIN_INTEGER will not be tested.
+    * precondition: n > Integer.MIN_VALUE   && n <= Integer.MAX_VALUE
+    * it is noteworthy that Integer.MIN_VALUE will not be tested.
     * toWords(0) returns "zero"
     * toWords(340) returns "three hundred and forty"
     * toWords(1000430) returns: "one million four hundred and thirty"
