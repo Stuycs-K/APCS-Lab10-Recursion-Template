@@ -29,7 +29,7 @@ public class Recursion{
     * toWords(0) returns "zero"
     * toWords(340) returns "three hundred and forty"
     * toWords(1000430) returns: "one million four hundred and thirty"
-    * toWords(-2101000442) returns: "negative two billion one hundred one million four hundred and forty-two"
+    * toWords(-2101000442) returns: "negative two billion one hundred and one million four hundred and forty-two"
     */
     public static String toWords(int n){
       //THIS SHOULD BE A WRAPPER METHOD
